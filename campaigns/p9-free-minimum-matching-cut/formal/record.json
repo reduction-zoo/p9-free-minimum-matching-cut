@@ -1,0 +1,7 @@
+{
+  "id": "Q031",
+  "source_definition": "The source gives a connected graph with no induced disjoint union of three three-vertex paths, and a bound k. Its outputs are nonempty matching cuts of size at most k, or NO-SOLUTION.",
+  "target_definition": "Given a connected graph and integer k, ask for a nonempty matching cut of at most k edges, or NO-SOLUTION. The source excludes three disjoint induced three-vertex paths and the target excludes an induced nine-vertex path. This is a threshold problem, not an exact-optimum output contract.",
+  "required_result": "Construct deterministic polynomial-time maps F and G: F sends every legal source instance to a legal target instance, and G(x,y) is a valid source output for every valid output y of F(x). Preserve the stated threshold, domain and promises. The requested complexity conclusion is NP-hardness for the stated target problem.",
+  "equation": ""
+}
